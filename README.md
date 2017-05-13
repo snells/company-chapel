@@ -3,11 +3,11 @@ crude company backend for emacs
 
 
 Depends on 
-*company
-*cl
-*cl-lib
-*emacsql
-*emacsql-sqlite
+* company
+* cl
+* cl-lib
+* emacsql
+* emacsql-sqlite
 
 
 You need to set database file for this to work. 
@@ -29,4 +29,4 @@ Then you can update your symbol databate in emacs with
 The database stores the doc timestamps and updates only if file has not been added or it has changed  so you can update your symbol database incrementally. 	
 	
 	
-This will only work if you are in chapel-mode.	
+Completion will only work if you are in chapel-mode.	
